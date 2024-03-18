@@ -1,4 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
+:root{
+    --primary-dark:#f1c00fef;
+    --primary-light:#709dff;
+}
+
+@layer base {
+
+    body{
+        @apply font-[Poppins]
+    }
+     li{
+        @apply pl-8
+     }
+    button{
+        @apply  p-3 border bg-[var(--primary-dark)] text-black rounded-md;
+    }
+ 
+
+
+
+}
