@@ -105,11 +105,11 @@ const Testimonials = () => {
   return (
     <div id='testimonials' className="w-full h-full py-10 text-center">
       <div className="flex items-center justify-center ">
-        <h1 className="text-2xl text-blue-500">Why to Choose us</h1>
+        <h1 className="text-2xl text-blue-500">Feedback</h1>
       </div>
       <div className="max-w-[500px] mx-auto py-5">
         <h1 className="text-4xl font-bold ">
-          Why to Launch a Career in Journalism{" "}
+          People Say about my Courses{" "}
         </h1>
       </div>
       <div className="max-w-[700px] mx-auto py-4">

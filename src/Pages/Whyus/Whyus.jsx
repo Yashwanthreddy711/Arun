@@ -39,10 +39,9 @@ const Whyus = () => {
           <HiOutlineLightBulb className="text-blue-500" size={20} />
         </div>
 
-        <h1 className="font-bold">Learn from Experts</h1>
+        <h1 className="font-bold">Practical Insights</h1>
         <p>
-          Our course covers wide range of topics like Social
-          Issue,Politics,Technology
+        Gain hands-on experience through practical exercises and case studies
         </p>
       </div>
       <div className="flex flex-col w-[300px] gap-4">
@@ -50,10 +49,9 @@ const Whyus = () => {
           <PiCertificate className="text-blue-500" size={20} />
         </div>
 
-        <h1 className="font-bold">Learn from Experts</h1>
+        <h1 className="font-bold">Get Your Certificate</h1>
         <p>
-          Our course covers wide range of topics like Social
-          Issue,Politics,Technology
+           You will get a Certificate for Course Completion  
         </p>
       </div>
       <div className="flex flex-col w-[300px] gap-4 ">
@@ -61,10 +59,9 @@ const Whyus = () => {
           <FaClock className="text-blue-500" size={20} />
         </div>
 
-        <h1 className="font-bold">Learn from Experts</h1>
+        <h1 className="font-bold">Lifetime access</h1>
         <p>
-          Our course covers wide range of topics like Social
-          Issue,Politics,Technology
+        Enjoy lifetime access to course materials, allowing you to revisit key concepts and stay updated on the latest trends in journalism.
         </p>
       </div>
       <div className="flex flex-col w-[300px] gap-4 ">
@@ -72,10 +69,9 @@ const Whyus = () => {
           <CgProfile className="text-blue-500" size={20} />
         </div>
 
-        <h1 className="font-bold">Learn from Experts</h1>
+        <h1 className="font-bold">Personalized Guidance</h1>
         <p>
-          Our course covers wide range of topics like Social
-          Issue,Politics,Technology
+        Benefit from my personalized feedback and mentorship, tailored to help you unleash your full potential as a journalist
         </p>
       </div>
     </div>
