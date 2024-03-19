@@ -7,7 +7,7 @@ import { FaPeopleGroup } from "react-icons/fa6";
 
 const Whyus = () => {
   return (
-    <div className="w-full h-screen text-center">
+    <div className="w-full h-full py-10 text-center border-b-2 border-gray-200 shadow-b-lg">
       <div className="flex items-center justify-center">
         <h1 className="text-2xl text-blue-500">Why to Choose us</h1>
       </div>

@@ -12,7 +12,7 @@ import Faq from "./Pages/Faq/Faq";
 
 function App() {
   return (
-    <div className="App  max-w-[1200px] border-2 mx-auto h-full border-black">
+    <div className="App  max-w-[1200px]  mx-auto h-full ">
       <Router>
          <Navbar/>
          <Home/>

@@ -26,14 +26,16 @@ const Faq = () => {
     }
   ]
   return (
-    <div>
-    <div className='text-4xl font-bold'>Frequently Asked Questions</div>
-    <div>
-      {
-         data.map((item)=>(
-           <FaqItemcard id={item.question} question={item.question} answer={item.answer}/>
-         ))
- }
+    <div className='pt-10 pb-20'>
+    <div className='px-5 text-4xl font-bold'>Frequently Asked Questions</div>
+    <div className='w-full px-5 py-5'>
+      
+          {
+            data.map((item)=>(
+                <FaqItemcard question={item.question} answer={item.answer}/>
+            ))
+               
+          }
        
     </div>
     </div>

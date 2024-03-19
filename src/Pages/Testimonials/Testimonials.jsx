@@ -12,7 +12,34 @@ const Testimonials = () => {
     infinite: true,
     speed: 500,
     slidesToShow: 2,
-    slidesToScroll: 2
+    slidesToScroll: 2,
+    initialSlide:0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
   };
 
   const data = [
@@ -39,44 +66,44 @@ const Testimonials = () => {
     {
        url:'https://images.pexels.com/photos/4342352/pexels-photo-4342352.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
        title:'Best platform for Learning ',
-       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.',
+       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate ',
        author:'Yashwanth Reddy'
     },
     {
        url:'https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
        title:'Best platform for Learning ',
-       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.',
+       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate .',
        author:'Yashwanth Reddy'
     },
     {
 
        url:'https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
        title:'Best platform for Learning ',
-       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.',
+       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.',
        author:'Yashwanth Reddy'
     },
     {
        url:'https://images.pexels.com/photos/1181391/pexels-photo-1181391.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
        title:'Best platform for Learning ',
-       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.',
+       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.',
        author:'Yashwanth Reddy'
     },
     {
        url:'https://images.pexels.com/photos/7651981/pexels-photo-7651981.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
        title:'Best platform for Learning ',
-       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.',
+       text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate .',
        author:'Yashwanth Reddy'
     },
     {
       url:'https://images.pexels.com/photos/32976/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
       title:'Best platform for Learning ',
-      text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content. Lorem ipsum may be used as a placeholder before the final copy is available.',
+      text:'In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate.',
       author:'Yashwanth Reddy'
     }
 
    ]
   return (
-    <div className="w-full h-screen text-center">
+    <div id='testimonials' className="w-full h-full py-10 text-center">
       <div className="flex items-center justify-center ">
         <h1 className="text-2xl text-blue-500">Why to Choose us</h1>
       </div>
